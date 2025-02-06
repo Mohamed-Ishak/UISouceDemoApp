@@ -1,7 +1,7 @@
 #@allure.label.owner=Mohamed-Ishaq
 Feature: Login E2E Scenario
 
-  Scenario Outline:
+  Scenario Outline: E2E flow
     Given I open login page
     When I enter a username "<username>"
     And I enter a password "<password>"
@@ -22,4 +22,4 @@ Feature: Login E2E Scenario
     Then Verify Thank you and Order has been dispatched messages
     Examples:
       |username        | password     |
-      |standard_user   | secret_sauce |
+      |standard_use   | secret_sauce |
