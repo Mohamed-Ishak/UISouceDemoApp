@@ -11,7 +11,7 @@ Composition approach instead of inheritance to provide more flexibility and modu
 
 # Key Concepts
 Composition Over Inheritance
-want to manage WebDriver instances) for flexibility and better testability. It allows each part of your system (like the browser driver setup or test reporting) to function independently and be replaced or extended without affecting the entire framework.          
+I want to manage WebDriver instances for flexibility and better testability. It allows each part of your system (like the browser driver setup or test reporting) to function independently and be replaced or extended without affecting the entire framework.          
 
 It’s also easier to maintain and extend without creating deep inheritance hierarchies.
 DriverFactory: Manages the WebDriver lifecycle. It ensures the correct browser is initialized and handles parallel execution efficiently using ThreadLocal.
